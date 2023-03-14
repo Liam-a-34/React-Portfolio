@@ -10,25 +10,51 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/index.css">
     <title>React Portfolio</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <header>
+          <nav>
+            <a id="about-anchor" href="#about-me">About</a>
+            <a id="portfolio-anchor" href="#portfolio">Portfolio</a>
+            <a id="contact-anchor" href="#contact">Contact</a>
+            <a id="resume-anchor" href="#resume">Resume</a>
+          </nav>
+      </header>
+      <!-- <div id="about">
+        <img id="profile-pic" src="./myAvatar.png"/>
+        <h4>I'm Liam Allen.</h4>
+        <p>I am a <span class="white-span">Nashville</span> based <span class="white-span">Junior Developer</span>, prioritizing front end, and UI development. I'm 20 years old, and excited for my future in this field. Growing up on a farm isn't necessarily what you'd imagine for a developer, but I believe it's helped shape my work ethic, and determination to do things right. It's nice to meet you, I hope you enjoy my portfolio!</p>
+      </div> -->
+      <div id="contact">
+        <h3>Contact</h3>
+        <div>
+          <p>Name:</p>
+          <input placeholder="Name" id="name-input"/>
+        </div>
+        <div>
+          <p>Email:</p>
+          <input placeholder="Email" id="email-input"/>
+        </div>
+        <div>
+          <p>Message:</p>
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <button>Submit</button>
+      </div>
+      <footer>
+        <a href="https://github.com/Liam-a-34" target="_blank"><img src="./github.png"/></a>
+        <a href="https://www.linkedin.com/in/liam-allen-a4a413259/" target="_blank"><img src="./linkedin.png"/></a>
+        <a href="https://stackoverflow.com/users/19978577/liam-allen" target="_blank"><img src="./stack-overflow.png"/></a>
+      </footer>
+    </div>
     
   </body>
 </html>
