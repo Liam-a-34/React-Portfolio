@@ -6,6 +6,7 @@ import Jate from "../assets/jate.PNG";
 import KachowDown from "../assets/kachow-down.png";
 import Weather from "../assets/weather.PNG";
 import NoteTaker from "../assets/note-taker.PNG";
+import Icon from "../assets/github.png"
 
 export default function Portfolio() {
     const projects = [
@@ -63,7 +64,7 @@ export default function Portfolio() {
             <img className="project-image" src={project.image}/>
             <div className="project-links">
               <a className="project-name" href={project.url}>{project.name}</a>
-              <a href={project.repo}><img className="project-icon" src="../src/components/assets/github.png"/></a>
+              <a href={project.repo}><img className="project-icon" src={Icon}/></a>
               <p className="project-description">-{project.description}-</p>
             </div>
         </div>
