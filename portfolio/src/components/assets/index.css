@@ -279,6 +279,7 @@ footer img:hover{
   filter: invert(0.75);
   position: relative;
   top: 8px;
+  left: 15px;
 }
 
 .project-icon:hover{
