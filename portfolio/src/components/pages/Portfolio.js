@@ -11,7 +11,7 @@ import Icon from "../assets/github.png"
 export default function Portfolio() {
     const projects = [
         {
-            name: "KRN",
+            name: "KRN Fitness",
             image: KRN,
             url: "https://pacific-sierra-02565.herokuapp.com/",
             description: "Full Stack",

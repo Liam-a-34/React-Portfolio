@@ -248,7 +248,7 @@ footer img:hover{
 
 .project-container{
   width: 30%;
-  height: 20%;
+  height: 250px;
   position: relative;
   margin-top: 50px;
 }
@@ -261,7 +261,8 @@ footer img:hover{
 .project-links{
   position: absolute;
   top: 50px;
-  left: 50px;
+  left: 25px;
+  display: inline-block;
 }
 
 .project-name{
