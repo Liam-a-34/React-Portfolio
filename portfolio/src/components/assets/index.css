@@ -248,13 +248,14 @@ footer img:hover{
 
 .project-container{
   width: 30%;
-  height: 250px;
+  height: 20%;
   position: relative;
   margin-top: 50px;
 }
 
 .project-image{
   width: 100%;
+  height: 170px;
   border-radius: 28px;;
 }
 
@@ -262,7 +263,6 @@ footer img:hover{
   position: absolute;
   top: 50px;
   left: 25px;
-  display: inline-block;
 }
 
 .project-name{

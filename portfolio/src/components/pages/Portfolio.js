@@ -3,7 +3,7 @@ import React from "react";
 import KRN from "../assets/krn-image.png";
 import Defuser from "../assets/defuser.PNG";
 import Jate from "../assets/jate.PNG";
-import KachowDown from "../assets/kachow-down.png";
+import KachowDown from "../assets/kachow-down.PNG";
 import Weather from "../assets/weather.PNG";
 import NoteTaker from "../assets/note-taker.PNG";
 import Icon from "../assets/github.png"
