@@ -17,7 +17,7 @@ code {
     monospace;
 }
 
-.root{
+#root{
   height: 100vh;
   width: 100vw;
   background-image: url("../assets/milky-way-starry-sky-night-mountains-lake-reflection-cold-5k-5760x3840-287.jpg");
@@ -58,11 +58,11 @@ nav a:hover{
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px rgb(255, 187, 0),
-    0 0 82px rgb(255, 187, 0),
-    0 0 92px rgb(255, 187, 0),
-    0 0 102px rgb(255, 187, 0),
-    0 0 151px rgb(255, 187, 0);
+    0 0 42px #ffffff6b,
+    0 0 82px #ffffff6b,
+    0 0 92px #ffffff6b,
+    0 0 102px #ffffff6b,
+    0 0 151px #ffffff6b;
 }
 
 .about{
@@ -106,7 +106,7 @@ nav a:hover{
   --_s: 0px
 }
 
-#about h4{
+.name-header{
   font-size: 70px;
   color: white;
 }
@@ -202,7 +202,7 @@ footer img:hover{
 
 }
 
-#contact p{
+.contact p{
   color: white;
   font-size: 25px;
   position: relative;
@@ -239,10 +239,72 @@ footer img:hover{
 }
 
 .projects{
-
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
 }
 
-.projects h3{
-  font-size: 30px;
+.project-container{
+  width: 30%;
+  height: 20%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.project-image{
+  width: 100%;
+  border-radius: 28px;;
+}
+
+.project-links{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.project-name{
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+  font-size: 40px;
+}
+
+.project-name:hover{
   color: white;
 }
+
+.project-icon{
+  width: 42px;
+  filter: invert(0.75);
+  position: relative;
+  top: 8px;
+}
+
+.project-icon:hover{
+  filter: invert(1)
+}
+
+.project-description{
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  left: 75px;
+}
+
+.project-links{
+  display: none;
+}
+
+.project-container:hover .project-image{
+  filter: brightness(5%);
+  transition: .5s;
+}
+
+.project-container:hover .project-links{
+  display: block;
+}
+
+
