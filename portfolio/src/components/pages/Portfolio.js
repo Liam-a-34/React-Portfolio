@@ -7,7 +7,7 @@ import KachowDown from "../assets/kachow-down.png";
 import Weather from "../assets/weather.PNG";
 import NoteTaker from "../assets/note-taker.PNG";
 
-export default function Resume() {
+export default function Portfolio() {
     const projects = [
         {
             name: "KRN",
@@ -58,14 +58,16 @@ export default function Resume() {
         <h2>Check out some of my work!</h2>
       <div className="projects"> 
         {projects.map((project) => {
+            return(
         <div key={project.name} className="project-container">
             <img className="project-image" src={project.image}/>
             <div className="project-links">
-              <a classname="project-name" href={project.url}>{project.title}</a>
-              <a href={project.repo}><img classname="project-icon" src="../src/components/assets/github.png"/></a>
+              <a className="project-name" href={project.url}>{project.name}</a>
+              <a href={project.repo}><img className="project-icon" src="../src/components/assets/github.png"/></a>
               <p className="project-description">-{project.description}-</p>
             </div>
         </div>
+            )
         })}
     </div>
     </div>
