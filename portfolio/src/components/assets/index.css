@@ -156,54 +156,6 @@ nav a:hover{
     0 0 151px #ffffff6b;
 }
 
-footer{
-  width: 15%;
-  display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-footer img{
-  width: 50px;
-  height: 50px;
-
-  --color: white; /* the color of the border */
-  --border: 5px;   /* the thickness of the border */
-  --offset: 30px;   
-  --gap: 5px;       
-  
-  border-radius: 50%;
-  cursor: pointer;
-  padding: calc(var(--border) + var(--gap));
-  border: var(--offset) solid #0000;
-  --_m: radial-gradient(50% 50%, #000 calc(100% - var(--offset)),#0000 calc(100% - var(--border)));
-  -webkit-mask: var(--_m);
-          mask: var(--_m);
-  --_g: #0000 calc(99% - var(--border)), var(--color) calc(100% - var(--border)) 99%,#0000;
-  --_s: var(--offset);
-  --_r: 100% 100% at;
-  background:
-    radial-gradient(var(--_r) 0    0   ,var(--_g)) calc(100% + var(--_s)) calc(100% + var(--_s)),
-    radial-gradient(var(--_r) 100% 0   ,var(--_g)) calc(0%   - var(--_s)) calc(100% + var(--_s)),
-    radial-gradient(var(--_r) 0    100%,var(--_g)) calc(100% + var(--_s)) calc(0%   - var(--_s)),
-    radial-gradient(var(--_r) 100% 100%,var(--_g)) calc(0%   - var(--_s)) calc(0%   - var(--_s));
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  transition: .5s;
-  filter: brightness(0) invert(1);
-  position: relative;
-  top: 100px;
-
-}
-
-footer img:hover{
-  --_s: 0px
-}
-
 .contact{
   height: 65%;
   display: flex;
@@ -261,6 +213,12 @@ footer img:hover{
   font-size: 20px;
   font-weight: bold;
   color: rgb(31, 31, 31)
+}
+
+.projects-div h2{
+  text-align: center;
+  color: white;
+  font-size: 30px;
 }
 
 .projects{
@@ -374,7 +332,7 @@ footer img:hover{
 }
 
 .proficiencies{
-  background-color: rgba(0, 0, 0, 0.651);
+
   display: flex;
   justify-content: center;
   margin: 25px auto;
@@ -406,7 +364,7 @@ footer img:hover{
   padding: 7px;
   margin: 5px;
   text-align: center;
-  background-color: rgba(1, 41, 100, 0.397);
+  background-color: rgba(1, 41, 100, 0.74);
 }
 
 .proficiencies div ul li:hover{
@@ -423,4 +381,52 @@ footer img:hover{
     0 0 92px #ffffff6b,
     0 0 102px #ffffff6b,
     0 0 151px #ffffff6b;
+}
+
+footer{
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+footer img{
+  width: 50px;
+  height: 50px;
+
+  --color: white; /* the color of the border */
+  --border: 5px;   /* the thickness of the border */
+  --offset: 30px;   
+  --gap: 5px;       
+  
+  border-radius: 50%;
+  cursor: pointer;
+  padding: calc(var(--border) + var(--gap));
+  border: var(--offset) solid #0000;
+  --_m: radial-gradient(50% 50%, #000 calc(100% - var(--offset)),#0000 calc(100% - var(--border)));
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  --_g: #0000 calc(99% - var(--border)), var(--color) calc(100% - var(--border)) 99%,#0000;
+  --_s: var(--offset);
+  --_r: 100% 100% at;
+  background:
+    radial-gradient(var(--_r) 0    0   ,var(--_g)) calc(100% + var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 100% 0   ,var(--_g)) calc(0%   - var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 0    100%,var(--_g)) calc(100% + var(--_s)) calc(0%   - var(--_s)),
+    radial-gradient(var(--_r) 100% 100%,var(--_g)) calc(0%   - var(--_s)) calc(0%   - var(--_s));
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  transition: .5s;
+  filter: brightness(0) invert(1);
+  position: relative;
+  top: 100px;
+
+}
+
+footer img:hover{
+  --_s: 0px
 }
