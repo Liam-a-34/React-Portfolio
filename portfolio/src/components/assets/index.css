@@ -352,7 +352,7 @@ nav a:hover{
   margin-bottom: 15px;
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  font-weight: bold;
+  font-size: 22px;
 }
 
 .proficiencies div ul li{
