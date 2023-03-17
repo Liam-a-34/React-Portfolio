@@ -45,17 +45,17 @@ return (
             <h3>Contact</h3>
         <div>
             <p>Name:</p>
-            <input type="text" placeholder="Name" className="name-input" value={formData.name} onChange={handleInputChange} required/>
+            <input type="text" id="name" name="name" placeholder="Name" className="name-input" value={formData.name} onChange={handleInputChange} required/>
             {errors.name && <span className="error">{errors.name}</span>}
         </div>
         <div>
           <p>Email:</p>
-          <input type="email" placeholder="Email" className="email-input" value={formData.email} onChange={handleInputChange} required/>
+          <input type="email" id="email" name="email" placeholder="Email" className="email-input" value={formData.email} onChange={handleInputChange} required/>
           {errors.email && <span className="error">{errors.email}</span>}
         </div>
         <div>
           <p>Message:</p>
-          <textarea placeholder="Message" value={formData.message} onChange={handleInputChange} required></textarea>
+          <textarea placeholder="Message" name="message" id="message" value={formData.message} onChange={handleInputChange} required></textarea>
           {errors.message && <span className="error">{errors.message}</span>}
         </div>
             <button type="submit">Send</button>
