@@ -37,22 +37,25 @@
         <p>I am a <span class="white-span">Nashville</span> based <span class="white-span">Junior Developer</span>, prioritizing front end, and UI development. I'm 20 years old, and excited for my future in this field. Growing up on a farm isn't necessarily what you'd imagine for a developer, but I believe it's helped shape my work ethic, and determination to do things right. It's nice to meet you, I hope you enjoy my portfolio!</p>
       </div> -->
 
-      <!-- <div id="contact">
+      <!-- <form class="contact-form" onSubmit={handleSubmit}>
         <h3>Contact</h3>
-        <div>
-          <p>Name:</p>
-          <input placeholder="Name" id="name-input"/>
-        </div>
-        <div>
-          <p>Email:</p>
-          <input placeholder="Email" id="email-input"/>
-        </div>
-        <div>
-          <p>Message:</p>
-          <textarea placeholder="Message"></textarea>
-        </div>
-        <button>Submit</button>
-      </div> -->
+    <div>
+        <p>Name:</p>
+        <input type="text" placeholder="Name" class="name-input" value={formData.name} onChange={handleInputChange} required></input>
+        {errors.name && <span className="error">{errors.name}</span>}
+    </div>
+    <div>
+      <p>Email:</p>
+      <input type="email" placeholder="Email" class="email-input" value={formData.email} onChange={handleInputChange} required></input>
+      {errors.email && <span className="error">{errors.email}</span>}
+    </div>
+    <div>
+      <p>Message:</p>
+      <textarea placeholder="Message" value={formData.message} onChange={handleInputChange} required></textarea>
+      {errors.message && <span className="error">{errors.message}</span>}
+    </div>
+        <button type="submit">Send</button>
+  </form> -->
 
       <!-- <div class="projects-div">
         <h2>Check out some of my work!</h2>
