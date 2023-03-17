@@ -408,8 +408,8 @@ footer{
 }
 
 footer a{
-  width: 50px;
-  height: 50px;
+  width: 42px;
+  height: 42px;
 
   --color: white; /* the color of the border */
   --border: 5px;   /* the thickness of the border */
@@ -438,11 +438,6 @@ footer a{
   /* position: relative;
   top: 100px; */
 
-}
-
-footer img {
-  width: 32px;
-  height: 32px
 }
 
 footer a:hover{
