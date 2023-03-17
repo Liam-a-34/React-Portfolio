@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from '../../utils/validators.js';
-import "../assets/index.css";
+import "../assets/index.css"
 
 function Contact(){
   const [formData, setFormData] = useState({
@@ -41,7 +41,7 @@ function Contact(){
   };
 
 return (
-    <form className="contact" onSubmit={handleSubmit}>
+    <form className="contact-form" onSubmit={handleSubmit}>
             <h3>Contact</h3>
         <div>
             <p>Name:</p>

@@ -156,7 +156,7 @@ nav a:hover{
     0 0 151px #ffffff6b;
 }
 
-.contact{
+.contact-form{
   height: 65%;
   display: flex;
   flex-direction: column;
@@ -170,7 +170,7 @@ nav a:hover{
   padding-left: 25px
 }
 
-.contact h3{
+.contact-form h3{
   font-size: 60px;
   color: white;
   position: absolute;
@@ -179,22 +179,22 @@ nav a:hover{
 
 }
 
-.contact p{
+.contact-form p{
   color: white;
   font-size: 25px;
   position: relative;
   margin-bottom: 10px;
 }
 
-.contact input{
+.contact-form input{
   width: 400px;
   height: 35px;
   padding: 5px;
   border-radius: 12px;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
-.contact textarea{
+.contact-form textarea{
   width: 380px;
   height: 250px;
   resize: none;
@@ -202,7 +202,7 @@ nav a:hover{
   border-radius: 12px;
 }
 
-.contact button{
+.contact-form button{
   width: 175px;
   height: 45px;
   border-radius: 12px;
@@ -213,6 +213,13 @@ nav a:hover{
   font-size: 20px;
   font-weight: bold;
   color: rgb(31, 31, 31)
+}
+
+.error {
+  display: block;
+  color: #ff0000;
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
 .projects-div h2{
