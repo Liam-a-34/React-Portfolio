@@ -45,12 +45,12 @@ return (
             <h3>Contact</h3>
         <div>
             <p>Name:</p>
-            <input type="text" placeholder="Name" className="name-input" value={formData.name} onChange={handleInputChange} required/>
+            <input type="text" placeholder="Name" className="name-input" value={formData.name} onChange={handleInputChange} required></input>
             {errors.name && <span className="error">{errors.name}</span>}
         </div>
         <div>
           <p>Email:</p>
-          <input type="email" placeholder="Email" className="email-input" value={formData.email} onChange={handleInputChange} required/>
+          <input type="email" placeholder="Email" className="email-input" value={formData.email} onChange={handleInputChange} required></input>
           {errors.email && <span className="error">{errors.email}</span>}
         </div>
         <div>
