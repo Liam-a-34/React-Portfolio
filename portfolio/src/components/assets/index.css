@@ -217,6 +217,10 @@ nav a:hover{
   color: rgb(31, 31, 31)
 }
 
+.contact-form button:hover{
+  cursor: pointer;
+}
+
 .error {
   display: block;
   color: #ff0000;
@@ -436,6 +440,11 @@ footer a{
 
 }
 
-footer img:hover{
+footer img {
+  width: 32px;
+  height: 32px
+}
+
+footer a:hover{
   --_s: 0px
 }
