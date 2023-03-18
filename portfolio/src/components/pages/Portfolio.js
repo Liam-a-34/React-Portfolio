@@ -5,7 +5,7 @@ import Defuser from "../assets/defuser.PNG";
 import Jate from "../assets/jate.PNG";
 import KachowDown from "../assets/kachow-down.PNG";
 import Weather from "../assets/weather.PNG";
-import NoteTaker from "../assets/note-taker.PNG";
+import CoffeeMaker from "../assets/coffee-maker.PNG";
 import Icon from "../assets/github.png"
 
 export default function Portfolio() {
@@ -46,11 +46,11 @@ export default function Portfolio() {
             repo: "https://github.com/Liam-a-34/Weather-forecast-app",
         },
         {
-            name: "Note Taker",
-            image: NoteTaker,
-            url: "https://evening-stream-08907.herokuapp.com/",
+            name: "Coffee Maker",
+            image: CoffeeMaker,
+            url: "https://liam-a-34.github.io/Coffee-Maker/",
             description: "HTML, CSS, JS",
-            repo: "https://github.com/Liam-a-34/Note-Taking-App",
+            repo: "https://github.com/Liam-a-34/Coffee-Maker",
         },
     ];
 
