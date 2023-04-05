@@ -2,7 +2,7 @@ import React from "react";
 
 import KRN from "../assets/krn-image.png";
 import Defuser from "../assets/defuser.PNG";
-import Jate from "../assets/jate.PNG";
+import furbnb from "../assets/furbnbscreenshot.PNG";
 import KachowDown from "../assets/kachow-down.PNG";
 import Weather from "../assets/weather.PNG";
 import CoffeeMaker from "../assets/coffee-maker.PNG";
@@ -32,11 +32,11 @@ export default function Portfolio() {
             repo: "https://github.com/Liam-a-34/Bomb-Defuser",
         },
         {
-            name: "Jate",
-            image: Jate,
-            url: "https://thawing-earth-15560.herokuapp.com/",
+            name: "furbnb",
+            image: furbnb,
+            url: "https://furbnbcare.herokuapp.com/",
             description: "Full Stack",
-            repo: "https://github.com/Liam-a-34/Text-Editor",
+            repo: "https://github.com/devkjoon/furbnb",
         },
         {
             name: "Weather Forecaster",
